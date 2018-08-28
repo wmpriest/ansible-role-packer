@@ -1,0 +1,4 @@
+- hosts: 172.19.1.166
+  become: true
+  roles:
+     - { role: packer }
